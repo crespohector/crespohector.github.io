@@ -137,12 +137,14 @@ section#projects li {
   height: 500px;
   overflow-y: auto;
   margin-bottom: 25px;
+  margin-right: 25px;
+  width: 35%;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (max-width: 990px) {
   section#projects li {
-    margin-right: 25px;
-    width: 35%;
+    width: 85%;
+    margin-left: 5%;
   }
 }
 

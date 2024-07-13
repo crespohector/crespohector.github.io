@@ -136,9 +136,13 @@ section#projects li {
   text-align: center;
   height: 500px;
   overflow-y: auto;
-  margin-bottom: 25px;
-  margin-right: 25px;
+  margin-bottom: 30px;
   width: 35%;
+}
+
+section#projects li:nth-child(even) {
+  float: right;
+  margin-right: 8%;
 }
 
 @media screen and (max-width: 990px) {
